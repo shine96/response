@@ -2,6 +2,8 @@
     "name": "mimic/response",
     "license": "MIT",
     "version":"v1.2",
+	"type": "project",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0"
     },
