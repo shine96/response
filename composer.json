@@ -1,0 +1,13 @@
+{
+    "name": "mimic/response",
+    "license": "MIT",
+    "version":"v1.2",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Response\\":"src"
+        }
+    }
+}
