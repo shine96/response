@@ -1,15 +1,19 @@
 {
-    "name": "mimic/response",
-    "license": "MIT",
-    "version":"v1.2",
-	"type": "project",
-    "minimum-stability": "stable",
+    "name": "mimic/validator",
+    "description": "基于Laravel封装的返回器",
+    "authors": [
+        {
+            "name": "shine",
+            "email": "10670374@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Response\\": "src/"
+        }
+    },
     "require": {
         "php": ">=7.0"
     },
-    "autoload":{
-        "psr-4":{
-            "Response\\":"src"
-        }
-    }
+    "license": "MIT"
 }
