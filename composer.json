@@ -1,5 +1,5 @@
 {
-    "name": "mimic/validator",
+    "name": "mimic/response",
     "description": "基于Laravel封装的返回器",
     "authors": [
         {
